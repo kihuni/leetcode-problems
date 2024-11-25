@@ -7,7 +7,7 @@
 
 
 def is_palindrome(x: int) -> bool:
-    return str(x) == str(x)[::-1]
+    return str(x) == str(x)[::-1] # reverse the string and compare it with the original string
  
 # test cases
 print(is_palindrome(121)) # True
